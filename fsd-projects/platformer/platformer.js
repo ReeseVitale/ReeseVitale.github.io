@@ -25,12 +25,10 @@ $(function () {
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
-
-    // TODO 1 - Enable the Grid
-    // toggleGrid();
-
-
-    // TODO 2 - Create Platforms
+    toggleGrid();
+    createPlatform(200, 530, 30, 43, "concrete")
+    createPlatform(300, 600, 30, 43, "concrete")
+    createPlatform(0, 220, 1000, 43, "black")
 
 
 
@@ -38,13 +36,13 @@ $(function () {
     // TODO 3 - Create Collectables
 
 
-
     
     // TODO 4 - Create Cannons
-
-
-    
-    
+    createCannon("right", 600, 600);
+    createCannon("top", 200, 900);
+     var audio = new 
+     Audio('the choice that changes all.wav'); 
+     audio.play();
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
