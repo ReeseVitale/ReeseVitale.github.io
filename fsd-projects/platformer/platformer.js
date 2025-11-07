@@ -28,20 +28,18 @@ $(function () {
     toggleGrid();
     createPlatform(200, 530, 30, 43, "concrete")
     createPlatform(300, 600, 30, 43, "concrete")
-    createPlatform(0, 220, 1000, 43, "black")
-
-
-
-
-    // TODO 3 - Create Collectables
-
-
-    
-    // TODO 4 - Create Cannons
-    createCannon("right", 600, 600);
-    createCannon("top", 200, 900);
+    createPlatform(0, 220, 1000, 43, "concrete")
+    createPlatform(500, 100, 20, 200, "concrete")
+    createPlatform(1000, 600, 200, 2, "concrete");
+    createCollectable("cells", 200, 50, 0.5, 0.7)
+    createCollectable("cells", 210, 400, 0.5, 0.7);
+    createCannon("right", 600, 600)
+    createCannon("top", 275, 900)
+    createCannon("bottom", 450, 750)
+    createCannon("bottom", 1150, 0);
      var audio = new 
      Audio('the choice that changes all.wav'); 
+     audio.loop = true;
      audio.play();
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //

@@ -1,10 +1,13 @@
 // setup variables
-const walkAcceleration = 2.5; // how much is added to the speed each frame
+// const walkAcceleration = 2.5; // how much is added to the speed each frame -- original
+const walkAcceleration = 2; // how much is added to the speed each frame
 const gravity = 0.5; // how much is subtracted from speedY each frame
-const friction = 1.5; // how much the player is slowed each frame
-const maxSpeed = 8; // maximum horizontal speed, not vertical
+// const friction = 1.5; // how much the player is slowed each frame -- original
+const friction = 1; // how much the player is slowed each frame
+// const maxSpeed = 8; // maximum horizontal speed, not vertical -- original
+const maxSpeed = 10; // maximum horizontal speed, not vertical
 const playerJumpStrength = 12; // this is subtracted from the speedY each jump
-const projectileSpeed = 8; // the speed of projectiles
+const projectileSpeed = 9; // the speed of projectiles
 let shouldDrawGrid = false;
 let gridMade = false;
 
@@ -100,4 +103,6 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  sans: { image: "images/collectables/sans.png"},
+  cells:  { image: "images/collectables/cells.png"}
 };
