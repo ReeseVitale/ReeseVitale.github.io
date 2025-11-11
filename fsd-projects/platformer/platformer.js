@@ -32,14 +32,14 @@ $(function () {
     createPlatform(500, 100, 20, 200, "concrete")
     createPlatform(1000, 600, 200, 2, "concrete");
     createCollectable("cells", 200, 50, 0.5, 0.7)
-    createCollectable("sans", 300, 100)
+    createCollectable("sans", 300, 425)
     createCollectable("cells", 200, 400, 0.5, 0.7);
     createCannon("right", 600, 600)
     createCannon("top", 275, 900)
     createCannon("bottom", 450, 750)
     createCannon("bottom", 1150, 0);
-     var audio = new 
-     Audio('the choice that changes all.wav'); 
+    var audio = new
+     Audio('deep fryed.wav');
      audio.loop = true;
      audio.play();
     //////////////////////////////////
