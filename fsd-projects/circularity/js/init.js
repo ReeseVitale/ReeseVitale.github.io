@@ -33,7 +33,7 @@ var init = function (window) {
 
         for (var i = 0; i < 100; i++) 
         {
-            drawCircle()
+            drawCircle();
         }
 
 
@@ -52,7 +52,7 @@ var init = function (window) {
         */
         function update() 
         {
-           for (i = 0; 0 < circles.length; i++) 
+           for (i = 0; i < circles.length; i++) 
             {
                 physikz.updatePosition(circles[i]);
                 game.checkCirclePosition(circles[i]);
